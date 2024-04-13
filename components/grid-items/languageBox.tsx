@@ -13,7 +13,7 @@ const LanguageBox = ({ item }: { item: GridItemInterface }) => {
 
 			{/* Language Content */}
 			<div className='flex flex-col justify-between items-center h-full'>
-				<div className='relative z-20 w-full p-4 space-y-3 md:p-8'>
+				<div className='relative z-20 w-full p-4 space-y-3 md:px-8 md:py-4'>
 					<div className='xl:backdrop-blur-sm backdrop-blur-md rounded-lg w-fit pr-1'>
 						<div className='text-sm font-medium text-white'>{item.title}</div>
 					</div>
@@ -31,9 +31,31 @@ const LanguageBox = ({ item }: { item: GridItemInterface }) => {
 					</div>
 				</div>
 
+				{/* DBMS*/}
+				<div className='relative z-20 w-full p-4 space-y-3 md:px-8 md:py-4'>
+					<div className=' rounded-lg pr-1  flex flex-row justify-end text-end'>
+						<div className='xl:backdrop-blur-sm backdrop-blur-md w-fit text-sm font-medium text-white'>
+							{item.title3}:
+						</div>
+					</div>
+
+					<div className='flex flex-wrap items-center gap-3 justify-end'>
+						{item.dbms?.map((framework, index) => {
+							return (
+								<Link
+									className='px-2 py-1 text-sm text-primary-content rounded-lg bg-base-300'
+									key={framework.link + index}
+									href={framework.link}>
+									{framework.title}
+								</Link>
+							);
+						})}
+					</div>
+				</div>
+
 				{/* Frameworks Content */}
-				<div className='relative z-20 w-full p-4 space-y-3 md:p-8'>
-					<div className='xl:backdrop-blur-sm backdrop-blur-md  rounded-lg w-fit pr-1'>
+				<div className='relative z-20 w-full p-4 space-y-3 md:px-8 md:py-4'>
+					<div className='xl:backdrop-blur-sm backdrop-blur-md rounded-lg w-fit pr-1'>
 						<div className='text-sm font-medium text-white'>{item.title2}</div>
 					</div>
 

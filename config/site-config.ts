@@ -5,11 +5,6 @@ export type LanguagesItem = {
 	link: string;
 	color?: string;
 };
-export type FrameworksItem = {
-	title: string;
-	link: string;
-	color?: string;
-};
 export type ToolsItem = {
 	title: string;
 	link: string;
@@ -31,8 +26,10 @@ export interface GridItemInterface {
 	stars?: number;
 	/* Languages */
 	languages?: LanguagesItem[];
-	frameworks?: FrameworksItem[];
+	frameworks?: LanguagesItem[];
+	dbms?: LanguagesItem[];
 	title2?: string;
+	title3?: string;
 	image?: string;
 	video?: string;
 	link?: string;
@@ -83,6 +80,7 @@ const GridItems: GridItemInterface[] = [
 		type: 'languages',
 		title: 'Languages:',
 		title2: 'Frameworks:',
+		title3: 'DBMS',
 		image: 'jordan.jpg',
 		languages: [
 			{
@@ -99,14 +97,6 @@ const GridItems: GridItemInterface[] = [
 			},
 			{
 				title: 'Java',
-				link: '',
-			},
-			{
-				title: 'MySQL',
-				link: '',
-			},
-			{
-				title: 'MongoDB',
 				link: '',
 			},
 			{
@@ -139,8 +129,18 @@ const GridItems: GridItemInterface[] = [
 				title: 'TailwindCSS',
 				link: '',
 			},
+		],
+		dbms: [
 			{
 				title: 'Postgres',
+				link: '',
+			},
+			{
+				title: 'MongoDB',
+				link: '',
+			},
+			{
+				title: 'MySQL',
 				link: '',
 			},
 		],
