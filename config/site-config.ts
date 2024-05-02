@@ -178,9 +178,10 @@ const GridItems: GridItemInterface[] = [
 	},
 	{
 		layout: '1x2',
-		title: 'drake',
+		title: 'yakuza-dancing',
 		type: 'picture',
-		image: 'drake.jpg',
+		image: 'yakuza0-dance.gif',
+		link: 'https://www.youtube.com/watch?v=DfEnIFV2-mc',
 	},
 	{
 		layout: '1x2',
@@ -206,7 +207,7 @@ const GridItems: GridItemInterface[] = [
 	{
 		layout: '2x2',
 		type: 'social',
-		title: 'Favorite Franchise: Yakuza',
+		title: 'Favorite Game Franchise: Yakuza',
 		icon: 'yakuza',
 		setBlur: true,
 		image: 'kiryu-yakuza.gif',
