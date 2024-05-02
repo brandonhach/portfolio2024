@@ -20,7 +20,7 @@ const SocialBox = ({ item }: { item: GridItemInterface }) => {
 						<Icon type={item.icon ?? ''}></Icon>
 
 						{/* {Button} */}
-						{item.layout === '2x2' && <div>Button</div>}
+						{item.layout === '2x2' && <div></div>}
 					</div>
 
 					{/* {Content Container} */}

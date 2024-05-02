@@ -7,6 +7,7 @@ const Icons: {
 	spotify: <Image src={'/logo/spotify.png'} width={48} height={48} alt='github'></Image>,
 	resume: <Image src={'/logo/resume.png'} width={48} height={48} alt='github'></Image>,
 	linkedin: <Image src={'/logo/linkedin.png'} width={48} height={48} alt='github'></Image>,
+	yakuza: <Image src={'/logo/yakuza.bmp'} width={48} height={48} alt='yakuza'></Image>,
 };
 
 const Icon = ({ type }: { type: string }) => {

@@ -132,7 +132,7 @@ const GridItems: GridItemInterface[] = [
 		],
 		dbms: [
 			{
-				title: 'Postgres',
+				title: 'PostgreSQL',
 				link: '',
 			},
 			{
@@ -148,10 +148,22 @@ const GridItems: GridItemInterface[] = [
 	{
 		layout: '2x2',
 		type: 'project',
+		title: 'quickqollab',
+		description:
+			'Collaborative whiteboard web application that support real-time sketching and chat designed for professionals and creative minds alike.',
+		link: 'https://github.com/ryanshz/quickqollab',
+		image: 'quickqollab.png',
+		setBlur: true,
+	},
+	{
+		layout: '2x2',
+		type: 'project',
 		title: 'ForTheBoard',
 		description:
-			' Reddit-style community forums, customizable live chat game sessions, and accessible in one place from your web browser. ',
+			'Reddit-style community forums, customizable live chat game sessions, and accessible in one place from your web browser. ',
 		link: 'https://github.com/weiraven/for-the-board',
+		image: 'fortheboard.png',
+		setBlur: true,
 	},
 	{
 		layout: '2x2',
@@ -160,7 +172,9 @@ const GridItems: GridItemInterface[] = [
 		icon: 'github',
 		description:
 			'A luxury cheese website for sellers to list their cheese for sale. And buyers can order their cheese of choice.',
-		link: 'https://github.com/brandonhach/Cheeese-Ecommerce-v2',
+		link: 'https://github.com/brandonhach/Luxury-Cheese-Marketplace',
+		image: 'cheese.png',
+		setBlur: true,
 	},
 	{
 		layout: '1x2',
@@ -188,6 +202,15 @@ const GridItems: GridItemInterface[] = [
 		type: 'picture',
 		image: 'mclaren.jpg',
 		link: 'https://unsplash.com/photos/red-ferrari-458-italia-on-road-2ihYdRZgyWw',
+	},
+	{
+		layout: '2x2',
+		type: 'social',
+		title: 'Favorite Franchise: Yakuza',
+		icon: 'yakuza',
+		setBlur: true,
+		image: 'kiryu-yakuza.gif',
+		link: 'https://www.youtube.com/watch?v=MJbE3uWN9vE',
 	},
 	{
 		title: 'ferrari',
