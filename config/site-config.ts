@@ -260,7 +260,7 @@ const GridItems: GridItemInterface[] = [
 ];
 export const siteConfig = {
 	creator: 'Brandon Hach',
-	title: 'CS Student @ UNC Charlotte',
+	title: 'CS Alumni @ UNC Charlotte',
 	bio: 'Building websites and learning new technology everyday.',
 	location: 'Charlotte, NC',
 	locationLink:
