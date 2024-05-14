@@ -160,7 +160,7 @@ const GridItems: GridItemInterface[] = [
 		type: 'project',
 		title: 'ForTheBoard',
 		description:
-			'Reddit-style community forums, customizable live chat game sessions, and accessible in one place from your web browser. ',
+			'Reddit-style community forums, customizable live chat game sessions, all accessible in one place from your web browser. ',
 		link: 'https://github.com/weiraven/for-the-board',
 		image: 'fortheboard.png',
 		setBlur: true,
@@ -171,7 +171,7 @@ const GridItems: GridItemInterface[] = [
 		title: 'Cheese Ecommerce',
 		icon: 'github',
 		description:
-			'A luxury cheese website for sellers to list their cheese for sale. And buyers can order their cheese of choice.',
+			'A luxury cheese website for sellers to list their expensive cheese for sale. And buyers can bid their cheese of choice.',
 		link: 'https://github.com/brandonhach/Luxury-Cheese-Marketplace',
 		image: 'cheese.png',
 		setBlur: true,
