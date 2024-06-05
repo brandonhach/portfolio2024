@@ -16,6 +16,6 @@ const config: Config = {
 	daisyui: {
 		themes: ['black', 'cmyk'],
 	},
-	plugins: [require('daisyui')],
+	plugins: [require('daisyui'), require('tailwind-scrollbar-hide')],
 };
 export default config;

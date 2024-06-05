@@ -34,11 +34,11 @@ const RightSide = () => {
 	}, [scope]);
 
 	return (
-		<div className='flex flex-1 p-4 md:h-full xl:overflow-y-auto xl:justify-end'>
+		<div className='flex flex-1 p-4 md:h-full xl:overflow-y-auto xl:justify-end scrollbar-hide'>
 			{/* {Grid Container} */}
 			<div
 				ref={scope}
-				className='grid w-full grid-cols-4 xl:gap-10 gap-6 xl:py-10 py-6 xl:px-1 auto-rows-[76px] xxl:w-3/5 xl:w-3/4'>
+				className='grid w-full grid-cols-4 xl:gap-10 gap-6 xl:py-10 py-6 xl:px-1 auto-rows-[76px] xxl:w-3/5 xl:w-3/4 scrollbar-hide'>
 				{/* {Grid Items} */}
 				{siteConfig.items.map((item, index) => {
 					return (
