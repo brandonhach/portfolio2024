@@ -38,7 +38,7 @@ const RightSide = () => {
 			{/* {Grid Container} */}
 			<div
 				ref={scope}
-				className='grid w-full grid-cols-4 xl:gap-10 gap-6 xl:py-10 py-6 xl:px-1 auto-rows-[76px] xxl:w-3/5 xl:w-3/4 scrollbar-hide'>
+				className='grid w-full grid-cols-4 gap-6 xl:py-10 py-6 xl:px-1 auto-rows-[76px] xxl:w-3/5 xl:w-[45rem] scrollbar-hide'>
 				{/* {Grid Items} */}
 				{siteConfig.items.map((item, index) => {
 					return (
