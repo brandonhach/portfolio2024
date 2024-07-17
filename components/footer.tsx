@@ -1,9 +1,10 @@
 import { Sun, Moon } from 'lucide-react';
 const Footer = () => {
+	const currentYear = new Date().getFullYear();
 	return (
 		<div className='border-neutral-800 text-neutral flex justify-between w-full'>
-			<div>
-				Built by Brandon Hach ©2024 All Rights Reserved.
+			<div className='text-sm cursor-default'>
+				Built by Brandon Hach ©{currentYear} All Rights Reserved.
 				<br />
 				Built with Next.js + TailwindCSS
 				<br />
