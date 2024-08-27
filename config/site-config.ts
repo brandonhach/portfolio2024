@@ -188,20 +188,19 @@ const GridItems: GridItemInterface[] = [
 		image: 'rep.gif',
 		setBlur: true,
 	},
+
 	{
-		layout: '1x2',
-		title: 'yakuza-dancing',
-		type: 'picture',
-		image: 'yakuza0-dance.gif',
-		link: 'https://www.youtube.com/watch?v=DfEnIFV2-mc',
+		layout: '2x2',
+		type: 'project',
+		title: 'Guidou',
+		icon: 'github',
+		description:
+			'Find or curated a guide to help others plan a perfect experience the best your city has to offer.',
+		link: 'https://github.com/brandonhach/guidou',
+		image: 'guidou.png',
+		setBlur: true,
 	},
-	{
-		layout: '1x2',
-		title: 'ferarri steering wheel',
-		type: 'picture',
-		image: 'ferrari.jpg',
-		link: 'https://unsplash.com/photos/black-steering-wheel-in-close-up-photography-t1bJyq-Xfag',
-	},
+
 	{
 		layout: '2x2',
 		type: 'project',
@@ -223,21 +222,25 @@ const GridItems: GridItemInterface[] = [
 		link: 'https://www.youtube.com/watch?v=MJbE3uWN9vE',
 	},
 	{
-		layout: '2x2',
-		type: 'project',
-		title: 'Guidou',
-		icon: 'github',
-		description:
-			'Find or curated a guide to help others plan a perfect experience the best your city has to offer.',
-		link: 'https://github.com/brandonhach/guidou',
-		image: 'guidou.png',
-		setBlur: true,
-	},
-	{
 		layout: '1x2',
 		type: 'picture',
 		image: 'angkor.jpg',
 	},
+	{
+		layout: '1x2',
+		title: 'ferarri steering wheel',
+		type: 'picture',
+		image: 'ferrari.jpg',
+		link: 'https://unsplash.com/photos/black-steering-wheel-in-close-up-photography-t1bJyq-Xfag',
+	},
+	{
+		layout: '1x2',
+		title: 'yakuza-dancing',
+		type: 'picture',
+		image: 'yakuza0-dance.gif',
+		link: 'https://www.youtube.com/watch?v=DfEnIFV2-mc',
+	},
+
 	{
 		layout: '1x2',
 		type: 'picture',
