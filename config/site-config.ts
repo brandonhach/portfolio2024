@@ -109,7 +109,7 @@ const GridItems: GridItemInterface[] = [
 		],
 		frameworks: [
 			{
-				title: 'Flask',
+				title: 'Next.js',
 				link: '',
 			},
 			{
@@ -117,9 +117,18 @@ const GridItems: GridItemInterface[] = [
 				link: '',
 			},
 			{
-				title: 'Next.js',
+				title: 'Angular',
 				link: '',
 			},
+			{
+				title: 'Flask',
+				link: '',
+			},
+			{
+				title: 'Supabase',
+				link: '',
+			},
+
 			{
 				title: 'Express.js',
 				link: '',
@@ -132,6 +141,10 @@ const GridItems: GridItemInterface[] = [
 		dbms: [
 			{
 				title: 'PostgreSQL',
+				link: '',
+			},
+			{
+				title: 'Prisma',
 				link: '',
 			},
 			{
