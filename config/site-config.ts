@@ -210,11 +210,31 @@ const GridItems: GridItemInterface[] = [
 		link: 'https://www.youtube.com/watch?v=MJbE3uWN9vE',
 	},
 	{
+		layout: '2x2',
+		type: 'project',
+		title: 'Guidou',
+		icon: 'github',
+		description:
+			'Find or curated a guide to help others plan a perfect experience the best your city has to offer.',
+		link: 'https://github.com/brandonhach/guidou',
+		image: 'guidou.png',
+		setBlur: true,
+	},
+	{
+		layout: '1x2',
+		type: 'picture',
+		image: 'angkor.jpg',
+	},
+	{
+		layout: '1x2',
+		type: 'picture',
+		image: 'white-mclaren.jpg',
+	},
+	{
 		layout: '1x2',
 		type: 'picture',
 		image: 'buddha.jpg',
 	},
-
 	{
 		layout: '2x4',
 		title: 'lambo',
