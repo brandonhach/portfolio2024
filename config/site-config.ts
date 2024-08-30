@@ -253,10 +253,14 @@ const GridItems: GridItemInterface[] = [
 	},
 	{
 		layout: '2x4',
-		title: 'lambo',
-		type: 'picture',
-		image: 'lambo.jpg',
+		type: 'social',
+		title: 'Dazegxd - Love Roulette',
+		icon: 'music',
+
+		image: 'race.gif',
+		link: 'https://www.youtube.com/watch?v=AVGNay892cI',
 	},
+
 	{
 		layout: '1x2',
 		type: 'picture',
@@ -281,13 +285,11 @@ const GridItems: GridItemInterface[] = [
 	},
 	{
 		layout: '2x2',
-		type: 'social',
-		title: 'Dazegxd - Love Roulette',
-		icon: 'music',
-
-		image: 'race.gif',
-		link: 'https://www.youtube.com/watch?v=AVGNay892cI',
+		title: 'statue',
+		type: 'picture',
+		image: 'statue.jpg',
 	},
+
 	{
 		layout: '1x2',
 		title: 'hanu2',

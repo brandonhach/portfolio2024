@@ -15,7 +15,10 @@ const SocialBox = ({ item }: { item: GridItemInterface }) => {
 						item.setBlur ? 'bg-gradient-to-b from-transparent via-neutral-950/80 to-neutral-950/90' : ''
 					}`}>
 					{/* {Header} */}
-					<div className='flex items-center justify-between'>
+					<div
+						className={`flex items-center justify-between ${
+							item.layout === '2x4' ? 'absolute bottom-10' : ''
+						}`}>
 						{/* {Icon} */}
 						<Icon type={item.icon ?? ''}></Icon>
 
@@ -24,7 +27,7 @@ const SocialBox = ({ item }: { item: GridItemInterface }) => {
 					</div>
 
 					{/* {Content Container} */}
-					<div className='mt-2'>
+					<div className={`${item.layout === '2x4' ? 'absolute bottom-2' : ''} mt-2 `}>
 						{/* {Title} */}
 						<div className='text-lg font-semibold text-white'>{item.title}</div>
 
