@@ -80,7 +80,7 @@ const GridItems: GridItemInterface[] = [
 		title: 'Languages:',
 		title2: 'Frameworks:',
 		title3: 'DBMS',
-		image: 'whiteferrari.jpg',
+		image: 'mc.jpg',
 		languages: [
 			{
 				title: 'Python',
@@ -285,9 +285,8 @@ const GridItems: GridItemInterface[] = [
 	},
 	{
 		layout: '2x2',
-		title: 'statue',
-		type: 'picture',
-		image: 'statue.jpg',
+		type: 'social',
+		image: 'coffee.jpg',
 	},
 
 	{
