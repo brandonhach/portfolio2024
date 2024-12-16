@@ -254,11 +254,10 @@ const GridItems: GridItemInterface[] = [
 	{
 		layout: '2x4',
 		type: 'social',
-		title: 'Dazegxd - Love Roulette',
+		title: 'emotion engine',
 		icon: 'music',
-
 		image: 'race.gif',
-		link: 'https://www.youtube.com/watch?v=AVGNay892cI',
+		link: 'https://www.youtube.com/watch?v=eZXKCiUMRlc',
 	},
 
 	{
