@@ -5,7 +5,7 @@ const Footer = () => {
 	const currentYear = new Date().getFullYear();
 
 	return (
-		<div className='border-neutral-800 text-neutral flex justify-between w-full'>
+		<div className='border-neutral-800 text-neutral flex justify-between w-full sm:pb-0 pb-8'>
 			<div className='text-sm cursor-default'>
 				Built by Brandon Hach ©{currentYear} All Rights Reserved.
 				<br />
