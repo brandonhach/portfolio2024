@@ -19,11 +19,15 @@ const LeftSide = () => {
 				{/* {Content Container} */}
 				<div>
 					{/* { Title} */}
-					<div className='text-xl text-primary-content font-semibold'>{siteConfig.title}</div>
+					<div className='text-xl text-primary-content font-semibold'>
+						{siteConfig.title}
+					</div>
 					{/* { Full Name} */}
 					<h1 className='text-4xl font-bold mt-2'>{siteConfig.creator}</h1>
 					{/* { Bio} */}
-					<p className='text-2xl font-light text-primary-content'>{siteConfig.bio}</p>
+					<p className='sm:text-2xl text-lg font-light text-primary-content'>
+						{siteConfig.bio}
+					</p>
 				</div>
 				{/* {Buttons Container} */}
 				<div className='flex items-center gap-6 justify-between'>
