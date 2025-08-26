@@ -6,7 +6,7 @@ const LanguageBox = ({ item }: { item: GridItemInterface }) => {
 	const src = `/image/${item.image}`;
 	const langContainer = 'flex flex-wrap items-center sm:gap-3 gap-2';
 	const langBadge =
-		'px-2 py-1 sm:text-sm text-xs font-primary-content rounded-lg bg-base-300';
+		'badge sm:text-sm text-xs font-primary-content rounded-lg bg-base-300';
 	return (
 		<div className='relative flex flex-col items-center justify-end w-full h-full overflow-hidden rounded-3xl'>
 			{/* Overlay */}

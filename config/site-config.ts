@@ -99,6 +99,10 @@ const GridItems: GridItemInterface[] = [
 				link: '',
 			},
 			{
+				title: 'C#',
+				link: '',
+			},
+			{
 				title: 'HTML',
 				link: '',
 			},
@@ -122,6 +126,10 @@ const GridItems: GridItemInterface[] = [
 			},
 			{
 				title: 'Flask',
+				link: '',
+			},
+			{
+				title: '.NET',
 				link: '',
 			},
 			{
