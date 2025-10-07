@@ -7,7 +7,12 @@ const PictureBox = ({ item }: { item: GridItemInterface }) => {
 	const src = `/image/${item.image}`;
 
 	const content = item.image ? (
-		<Image className='object-cover w-full h-full' src={src} alt='' fill />
+		<Image
+			className={item.title === 'hanu' ? 'object-contain bg-black brightness-90' : 'object-cover w-full h-full'}
+			src={src}
+			alt=''
+			fill
+		/>
 	) : (
 		<video
 			autoPlay
@@ -15,7 +20,10 @@ const PictureBox = ({ item }: { item: GridItemInterface }) => {
 			muted
 			controlsList='nodownload noplaybackrate nofullscreen'
 			className='z-0 object-cover w-full h-full'>
-			<source src={videoSrc} type='video/mp4' />
+			<source
+				src={videoSrc}
+				type='video/mp4'
+			/>
 		</video>
 	);
 

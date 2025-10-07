@@ -227,7 +227,7 @@ const GridItems: GridItemInterface[] = [
 		icon: 'yakuza',
 		setBlur: true,
 		image: 'kiryu-yakuza.gif',
-		link: 'https://www.youtube.com/watch?v=MJbE3uWN9vE',
+		link: 'https://www.youtube.com/watch?v=h2Gw01Gl40o',
 	},
 	{
 		layout: '1x2',
@@ -256,8 +256,37 @@ const GridItems: GridItemInterface[] = [
 	},
 	{
 		layout: '1x2',
+		title: 'hanu',
 		type: 'picture',
-		image: 'buddha.jpg',
+		image: 'hanu.jpg',
+	},
+	{
+		layout: '1x2',
+		type: 'picture',
+		title: 'hanu',
+		image: 'hanuman.jpg',
+	},
+
+	{
+		layout: '1x2',
+		title: 'hanu',
+		type: 'picture',
+		image: 'hanuman2.jpg',
+	},
+
+	{
+		layout: '1x2',
+		title: 'hanu',
+		type: 'picture',
+		image: 'hanu2.jpg',
+	},
+	{
+		layout: '2x4',
+		type: 'social',
+		title: 'Palms Trax',
+		icon: 'music',
+		image: 'dj1.gif',
+		link: 'https://youtu.be/aRsh0Max12s?si=wLsM-TCM42a8qX0g&t=957',
 	},
 	{
 		layout: '2x4',
@@ -267,46 +296,11 @@ const GridItems: GridItemInterface[] = [
 		image: 'race.gif',
 		link: 'https://www.youtube.com/watch?v=eZXKCiUMRlc',
 	},
-
-	{
-		layout: '1x2',
-		type: 'picture',
-		image: 'buddha.jpg',
-	},
-	{
-		layout: '1x2',
-		type: 'picture',
-		image: 'hanuman.jpg',
-	},
-	{
-		layout: '1x2',
-		title: 'hanuman2',
-		type: 'picture',
-		image: 'hanuman2.jpg',
-	},
-	{
-		layout: '1x2',
-		title: 'hanu',
-		type: 'picture',
-		image: 'hanu.jpg',
-	},
-	{
-		layout: '2x2',
-		type: 'social',
-		image: 'coffee.jpg',
-	},
-
-	{
-		layout: '1x2',
-		title: 'hanu2',
-		type: 'picture',
-		image: 'hanu2.jpg',
-	},
 ];
 export const siteConfig = {
 	creator: 'Brandon Hach',
 	title: 'CS Alumni @ UNC Charlotte',
-	bio: 'Building websites and learning new technology. 🇺🇸 🇰🇭 ',
+	bio: 'Always collaborative and working. Connect with me 🇺🇸 🇰🇭 ',
 	location: 'Charlotte, NC',
 	locationLink:
 		'https://www.google.com/maps/place/Charlotte,+NC/@35.2027068,-81.1694775,10z/data=!3m1!4b1!4m6!3m5!1s0x88541fc4fc381a81:0x884650e6bf43d164!8m2!3d35.2270869!4d-80.8431267!16zL20vMGZzYjg?entry=ttu',
