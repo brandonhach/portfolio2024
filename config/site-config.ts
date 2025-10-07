@@ -255,6 +255,22 @@ const GridItems: GridItemInterface[] = [
 		image: 'white-mclaren.jpg',
 	},
 	{
+		layout: '2x4',
+		type: 'social',
+		title: 'Palms Trax',
+		icon: 'music',
+		image: 'dj1.gif',
+		link: 'https://youtu.be/aRsh0Max12s?si=wLsM-TCM42a8qX0g&t=957',
+	},
+	{
+		layout: '2x4',
+		type: 'social',
+		title: 'emotion engine',
+		icon: 'music',
+		image: 'race.gif',
+		link: 'https://www.youtube.com/watch?v=eZXKCiUMRlc',
+	},
+	{
 		layout: '1x2',
 		title: 'hanu',
 		type: 'picture',
@@ -279,22 +295,6 @@ const GridItems: GridItemInterface[] = [
 		title: 'hanu',
 		type: 'picture',
 		image: 'hanu2.jpg',
-	},
-	{
-		layout: '2x4',
-		type: 'social',
-		title: 'Palms Trax',
-		icon: 'music',
-		image: 'dj1.gif',
-		link: 'https://youtu.be/aRsh0Max12s?si=wLsM-TCM42a8qX0g&t=957',
-	},
-	{
-		layout: '2x4',
-		type: 'social',
-		title: 'emotion engine',
-		icon: 'music',
-		image: 'race.gif',
-		link: 'https://www.youtube.com/watch?v=eZXKCiUMRlc',
 	},
 ];
 export const siteConfig = {
