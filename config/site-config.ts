@@ -69,7 +69,7 @@ const GridItems: GridItemInterface[] = [
 		layout: '1x2',
 		type: 'social',
 		title: 'Spotify',
-		username: '@doob',
+		username: '@norodom',
 		icon: 'spotify',
 		video: 'drake-spotify.mp4',
 		link: 'https://open.spotify.com/user/1z1b1y7vu3j7ntroaf6c7ng84',
