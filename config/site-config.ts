@@ -300,7 +300,7 @@ const GridItems: GridItemInterface[] = [
 export const siteConfig = {
 	creator: 'Brandon Hach',
 	title: 'CS Alumni @ UNC Charlotte',
-	bio: 'Always collaborative and working. Connect with me 🇺🇸 🇰🇭 ',
+	bio: 'Always collaborative and working. Connect with me',
 	location: 'Charlotte, NC',
 	locationLink:
 		'https://www.google.com/maps/place/Charlotte,+NC/@35.2027068,-81.1694775,10z/data=!3m1!4b1!4m6!3m5!1s0x88541fc4fc381a81:0x884650e6bf43d164!8m2!3d35.2270869!4d-80.8431267!16zL20vMGZzYjg?entry=ttu',
