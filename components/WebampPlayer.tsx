@@ -38,7 +38,7 @@ const WebampPlayer = ({ className = '' }: WebampPlayerProps) => {
           equalizer: { position: { x: 0, y: 116 } },
           playlist:  { position: { x: 0, y: 232 } },
         },
-      });
+      } as any);
 
       webampRef.current = instance;
 
