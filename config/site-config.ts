@@ -297,10 +297,73 @@ const GridItems: GridItemInterface[] = [
 		image: 'hanu2.jpg',
 	},
 ];
+
+export const tracks = [
+				{
+					metaData: {
+						artist: 'shogun / artemis',
+						title: 'nautilus',
+					},
+					url: '/audio/shogun.mp3',
+				},
+				{
+					metaData: {
+						artist: 'gum.mp3',
+						title: "You\'re On My Mind",
+					},
+					url: '/audio/gum.mp3',
+				},
+				{
+					metaData: {
+						artist: 'Moodymann',
+						title: "I'm Doing Fine",
+					},
+					url: '/audio/moody.mp3',
+				},
+				{
+					metaData: {
+						artist: '&ME',
+						title: 'Garden',
+					},
+					url: '/audio/highsociety.mp3',
+				},
+				{
+					metaData: {
+						artist: 'Ugly Duckling',
+						title: 'samba',
+					},
+					url: '/audio/samba.mp3',
+				},
+				{
+					metaData: {
+						artist: 'Dixon',
+						title: 'Yes I Do',
+					},
+					url: '/audio/dixon.mp3',
+				},
+				{
+					metaData: {
+						artist: 'Hoody',
+						title: 'When The Rain Stops',
+					},
+					url: '/audio/kpop.mp3',
+	},
+]
+
+export const TRACK_GIFS: Record<string, string> = {
+	nautilus: '/image/shogunart.jpg',
+	"You're On My Mind": '/image/gum.gif',
+	"I'm Doing Fine": '/image/moody.gif',
+	Garden: '/image/&me.gif',
+	samba: '/image/samba.gif',
+	'Yes I Do': '/image/yes.jpg',
+	'When The Rain Stops': '/image/kpop.gif',
+};
+
 export const siteConfig = {
 	creator: 'Brandon Hach',
 	title: 'CS Alumni @ UNC Charlotte',
-	bio: 'Always collaborative and working. Connect with me',
+	bio: 'Always collaborative and working. \n Listen to some tracks below.',
 	location: 'Charlotte, NC',
 	locationLink:
 		'https://www.google.com/maps/place/Charlotte,+NC/@35.2027068,-81.1694775,10z/data=!3m1!4b1!4m6!3m5!1s0x88541fc4fc381a81:0x884650e6bf43d164!8m2!3d35.2270869!4d-80.8431267!16zL20vMGZzYjg?entry=ttu',

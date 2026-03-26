@@ -34,7 +34,7 @@ const RightSide = () => {
 	}, [scope]);
 
 	return (
-		<div className='flex flex-1 p-4 md:h-full xl:overflow-y-auto xl:justify-end scrollbar-hide'>
+		<div className='flex flex-1 p-4 md:h-full xl:overflow-y-auto xl:justify-end scrollbar-hide z-0'>
 			{/* {Grid Container} */}
 			<div
 				ref={scope}
