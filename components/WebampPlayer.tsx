@@ -22,7 +22,7 @@ const WebampPlayer = ({ className = '' }: WebampPlayerProps) => {
 
   useEffect(() => {
     // Never mount on small screens
-    if (window.innerWidth < 640) return;
+    //if (window.innerWidth < 640) return;
 
     let disposed = false;
 
@@ -149,7 +149,6 @@ const WebampPlayer = ({ className = '' }: WebampPlayerProps) => {
       id="webamp-root"
       className={[
         'relative w-full',
-        'hidden lg:block',          // hidden on < lg
         'h-[340px] xl:h-[420px]',   // responsive heights
         className,
       ]
