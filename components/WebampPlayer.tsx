@@ -22,7 +22,7 @@ const WebampPlayer = ({ className = '' }: WebampPlayerProps) => {
 
   useEffect(() => {
     // Never mount on small screens
-    if (window.innerWidth < 640) return;
+    //if (window.innerWidth < 640) return;
 
     let disposed = false;
 
