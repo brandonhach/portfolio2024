@@ -4,6 +4,7 @@ import './globals.css';
 import { Toaster } from 'sonner';
 import { LoadingProvider } from '@/components/loading-provider';
 import { LoadingScreen } from '@/components/loading-screen';
+import { Analytics } from '@vercel/analytics/next';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -27,6 +28,7 @@ export default function RootLayout({
 						{/* Loading screen sits above everything, unmounts after exit anim */}
 						<LoadingScreen />
 						{children}
+						<Analytics />
 					</LoadingProvider>
 				</div>
 				<Toaster />
