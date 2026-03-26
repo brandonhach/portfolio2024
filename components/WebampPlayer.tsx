@@ -149,7 +149,6 @@ const WebampPlayer = ({ className = '' }: WebampPlayerProps) => {
       id="webamp-root"
       className={[
         'relative w-full',
-        'hidden lg:block',          // hidden on < lg
         'h-[340px] xl:h-[420px]',   // responsive heights
         className,
       ]
