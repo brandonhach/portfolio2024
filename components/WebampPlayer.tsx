@@ -63,7 +63,7 @@ const WebampPlayer = ({ className = '' }: WebampPlayerProps) => {
                 />
               </div>
             ),
-            { duration: 5000, position: 'bottom-right' },
+            { duration: 12000, position: 'bottom-right' },
           );
         }
       });
