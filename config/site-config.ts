@@ -301,49 +301,42 @@ const GridItems: GridItemInterface[] = [
 export const tracks = [
 				{
 					metaData: {
-						artist: 'shogun / artemis',
 						title: 'nautilus',
 					},
 					url: '/audio/shogun.mp3',
 				},
 				{
-					metaData: {
-						artist: 'gum.mp3',
+					metaData: {			
 						title: "You\'re On My Mind",
 					},
 					url: '/audio/gum.mp3',
 				},
 				{
-					metaData: {
-						artist: 'Moodymann',
+					metaData: {				
 						title: "I'm Doing Fine",
 					},
 					url: '/audio/moody.mp3',
 				},
 				{
-					metaData: {
-						artist: '&ME',
+					metaData: {					
 						title: 'Garden',
 					},
 					url: '/audio/highsociety.mp3',
 				},
 				{
-					metaData: {
-						artist: 'Ugly Duckling',
+					metaData: {					
 						title: 'samba',
 					},
 					url: '/audio/samba.mp3',
 				},
 				{
-					metaData: {
-						artist: 'Dixon',
+					metaData: {				
 						title: 'Yes I Do',
 					},
 					url: '/audio/dixon.mp3',
 				},
 				{
-					metaData: {
-						artist: 'Hoody',
+					metaData: {					
 						title: 'When The Rain Stops',
 					},
 					url: '/audio/kpop.mp3',
